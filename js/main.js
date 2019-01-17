@@ -9,7 +9,7 @@ var markers = []
  */
 document.addEventListener('DOMContentLoaded', (event) => {
   if (navigator.serviceWorker) {
-    navigator.serviceWorker.register('/js/sw.js').then(function() {
+    navigator.serviceWorker.register('/sw.js').then(function() {
       console.log("SW registration successful");
     }).catch(function() {
       console.log('SW registration failed');
